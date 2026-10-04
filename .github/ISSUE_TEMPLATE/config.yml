@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://rainkernel.com/security
+    about: Report privately through the repository's Security tab or security@rainkernel.com — never in a public issue.
+  - name: Question, pilot or commercial enquiry
+    url: https://rainkernel.com/contact
+    about: Using the tools in production, the Agent Readiness Gate, pricing — a founder replies within one working day.

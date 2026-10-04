@@ -1,0 +1,29 @@
+name: Feature, attack case or adapter request
+description: Propose a capability, a new attack case or an adapter
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do and where it stalls today
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Interface, behaviour, an example of input and output
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: willing
+    attributes:
+      label: Would you implement it?
+      options:
+        - Yes, with guidance
+        - No, request only
